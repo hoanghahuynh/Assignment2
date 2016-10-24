@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string-array name="order">
+        <item>Newest</item>
+        <item>Oldest</item>
+    </string-array>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_config"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hoangha.lab2.ConfigActivity">
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Begin Date"
+           android:textSize="25sp" />
+
+ <!--   <DatePicker
+        android:id="@+id/dpDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:scaleX="0.4"
+        android:scaleY="0.4"
+        android:layout_margin="-20dp"
+        android:padding="-20dp" />-->
+    <DatePicker
+        android:id="@+id/dpDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sort"
+            android:textSize="25sp" />
+
+    <Spinner
+        android:id="@+id/spnOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/order" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="News Desk Value"
+            android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/cbArt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arts" />
+
+    <CheckBox
+        android:id="@+id/cbFashion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fashion Style" />
+
+    <CheckBox
+        android:id="@+id/cbSport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sports" />
+
+
+    <Button
+        android:id="@+id/btnConfig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Config" />
+
+
+</LinearLayout>
